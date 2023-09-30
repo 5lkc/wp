@@ -21,3 +21,9 @@ for extenson in "${extensons[@]}"
 do
     code --install-extension "$extenson"
 done
+
+# set up terminal appearance
+git clone https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme.git
+mv agnosterzak-ohmyzsh-theme/agnosterzak.zsh-theme .oh-my-zsh/themes
+rm -rf agnosterzak-ohmyzsh-theme
+code .zshrc
