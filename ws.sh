@@ -18,13 +18,14 @@ extensons=(
     Vue.volar
 )
 
-# Install the list
+# Install all extensons of the list
 for extenson in "${extensons[@]}"
 do
     code --install-extension "$extenson"
 done
 
-# set up terminal appearance
+# set up terminal appearance . . .
+# Install Oh-My-Zsh and set up the "agnosterzak" theme
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 git clone https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme.git
 mv agnosterzak-ohmyzsh-theme/agnosterzak.zsh-theme .oh-my-zsh/themes
@@ -45,3 +46,11 @@ fi
 
 # Use sed to replace the old theme setting with the new theme setting
 sed -i "s|$old_theme|$new_theme|g" "$zshrc_file"
+
+# Apply the new theme
+exec zsh
+
+# Set my Gitea credencials
+git config --global user.email "papebilalysow@gmail.com"
+git config --global user.name "papebsow"
+git config --global credential.helper store
