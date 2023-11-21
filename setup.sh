@@ -4,20 +4,20 @@
 extensons=(
     adpyke.codesnap
     alfredbirk.tailwind-documentation
+    clarkyu.vscode-sql-beautify
     bradlc.vscode-tailwindcss
     dzhavat.bracket-pair-toggler
     ecmel.vscode-html-css
     fabiospampinato.vscode-todo-plus
-    firejump.frame-indent-rainbow
     formulahendry.auto-rename-tag
     humao.rest-client
     liviuschera.noctis
     PKief.material-icon-theme
+    qwtel.sqlite-viewer
     rangav.vscode-thunder-client
     ritwickdey.LiveServer
     s-nlf-fh.glassit
     solnurkarim.html-to-css-autocompletion
-    tal7aouy.indent-colorizer
     usernamehw.errorlens
     Vue.volar
     wayou.vscode-todo-highlight
