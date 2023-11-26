@@ -18,6 +18,7 @@ extensons=(
     ritwickdey.LiveServer
     s-nlf-fh.glassit
     solnurkarim.html-to-css-autocompletion
+    TabNine.tabnine-vscode
     usernamehw.errorlens
     Vue.volar
     wayou.vscode-todo-highlight
