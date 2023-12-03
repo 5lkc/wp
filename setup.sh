@@ -21,6 +21,7 @@ extensons=(
     TabNine.tabnine-vscode
     usernamehw.errorlens
     Vue.volar
+    WallabyJs.quokka-vscode
     wayou.vscode-todo-highlight
     wix.vscode-import-cost
 )
