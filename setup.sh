@@ -3,25 +3,20 @@
 # list of extensons for VSCode
 extensons=(
     adpyke.codesnap
-    alfredbirk.tailwind-documentation
-    clarkyu.vscode-sql-beautify
-    bradlc.vscode-tailwindcss
     dzhavat.bracket-pair-toggler
     ecmel.vscode-html-css
     fabiospampinato.vscode-todo-plus
     formulahendry.auto-rename-tag
-    humao.rest-client
+    hediet.vscode-drawio
     liviuschera.noctis
+    ms-vscode.cpptools
+    ms-vscode.makefile-tools
     PKief.material-icon-theme
     qwtel.sqlite-viewer
-    rangav.vscode-thunder-client
-    ritwickdey.LiveServer
     s-nlf-fh.glassit
     solnurkarim.html-to-css-autocompletion
-    TabNine.tabnine-vscode
     usernamehw.errorlens
     Vue.volar
-    WallabyJs.quokka-vscode
     wayou.vscode-todo-highlight
     wix.vscode-import-cost
 )
